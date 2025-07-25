@@ -1,0 +1,21 @@
+/* Google Font: Philosopher */
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Philosopher'), local('Philosopher-Regular'),
+       url('data:font/woff2;base64,') format('woff2');
+}
+
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Philosopher Bold'), local('Philosopher-Bold'),
+       url('data:font/woff2;base64,') format('woff2');
+}
+
+/* Fallback to system fonts */
+.philosopher-font {
+  font-family: 'Philosopher', Georgia, serif;
+}
